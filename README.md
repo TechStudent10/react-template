@@ -1,18 +1,22 @@
-# FlaskAndReactMini 
-A template for Flask and React (no create-react-app)
+# MiniReactTemplate 
+A template for React without using `create-react-app`.
 
-## Requirements:
-- Python 3.x
-- Flask
-- NodeJS
-- NPM or Yarn
+## Why tho?
+Before, I would use `create-react-app` for bootstrapping React applications. However, I've been experiencing problems with it. So, I decided to make this. A template for React without using `create-react-app`. You can figure out how to use it below.
 
-## To run:
-1. Open a terminal.
-2. Change directory to the project folder.
-3. Run (Windows) `python app.py` or (Mac) `python3 app.py`.
-4. Open another terminal.
-5. Change directory to the project folder.
-6. Change directory to `path/to/project/main/views/static`.
-7. Run (Yarn) `yarn install` or (NPM) `npm install`.
-8. Run (Yarn) `yarn dev` or (NPM) `npm run dev`.
+## How to setup
+First, use the template. You can do this by pressing the big "Use this template" button. Enter your details and create the app.
+
+!["Use this template" button](https://user-images.githubusercontent.com/76978184/145686244-f45017d5-5f6e-427f-8eac-1e3bafe03bcb.png)
+
+After that, you can modify components or whatever!
+
+## How to run
+I mean, you kinda have to run the app **AT LEAST** 10 times.
+
+1. Open a terminal
+2. Run `yarn install`. If you don't have Yarn installed, run `npm install yarn` then `yarn install`.
+3. Run `yarn start`. This will start the web server.
+4. Open `index.html` once it's finished compiling.
+
+I do recommend, however, using VSCode with the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). This enables live reload and it's wayyyyy more convenient.
