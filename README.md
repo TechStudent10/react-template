@@ -1,4 +1,4 @@
-# MiniReactTemplate 
+# React App Template
 A template for React without using `create-react-app`.
 
 ## Why tho?
